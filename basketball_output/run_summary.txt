@@ -1,0 +1,40 @@
+BASKETBALL OBJECT TRACKING PROJECT - RUN SUMMARY
+=================================================
+Input video: basketball_vid.mp4
+Frames processed: 2869
+FPS: 57.17
+Resolution: 2880 x 1392
+Unique player IDs: 558
+Basketball detected frames: 1185/2869
+Basketball detection rate: 41.30%
+Ball candidates found by the model: 2747
+  removed as head: 152, static object: 0, wrong size: 270, wrong shape: 56
+
+IMPORTANT NOTES:
+- Ball detection rate is not precision, recall or accuracy.
+- Evaluation metrics require manually labelled ground truth.
+- Speed is measured in pixels/second, not km/h.
+- Real-world speed requires camera/court calibration.
+- Player IDs may change after occlusion or missed detections.
+- The ball is ONE path chosen from all candidates (heads, static objects and
+  impossible jumps are removed first); it is not multi-ball tracking.
+
+OUTPUT FILES:
+- all_object_detections.csv
+- basketball_heatmap.png
+- basketball_positions.csv
+- basketball_positions_with_speed.csv
+- basketball_speed_graph.png
+- basketball_tracked_video.mp4
+- basketball_trajectory.png
+- evaluation_metrics.csv
+- evaluation_metrics.txt
+- ground_truth.csv
+- ground_truth_frames.csv
+- player_detections.csv
+- player_detections_with_speed.csv
+- player_heatmap.png
+- player_speed_graph.png
+- player_track_summary.csv
+- player_trajectory.png
+- run_summary.txt

@@ -1,0 +1,14 @@
+OBJECT DETECTION EVALUATION RESULTS
+===================================
+Reviewed frames: 316
+IoU threshold for precision/recall: 0.50
+AP uses 101-point interpolated precision-recall.
+mAP@0.50: AP at IoU 0.50, averaged across evaluated classes.
+mAP@0.50:0.95: AP averaged over IoU thresholds 0.50 to 0.95.
+
+            object_type  ground_truth_objects  predicted_objects  true_positives  false_positives  false_negatives  precision_at_iou_0_50  recall_at_iou_0_50  mean_iou_of_true_positives  AP_at_0_50  mAP_at_0_50_to_0_95  AP@0.50  AP@0.55  AP@0.60  AP@0.65  AP@0.70  AP@0.75  AP@0.80  AP@0.85  AP@0.90  AP@0.95
+                 person                5700.0             5373.0          4650.0            723.0           1050.0               0.865438            0.815789                    0.894768    0.791658             0.633717 0.791658 0.790257 0.778163 0.773944 0.758697 0.730129 0.674352 0.573395 0.382371 0.084202
+             basketball                  93.0              128.0            18.0            110.0             75.0               0.140625            0.193548                    0.837884    0.070236             0.048890 0.070236 0.070236 0.070236 0.065438 0.065438 0.063236 0.055795 0.026963 0.000660 0.000660
+OVERALL (macro average)                   NaN                NaN             NaN              NaN              NaN               0.503032            0.504669                    0.866326    0.430947             0.341303      NaN      NaN      NaN      NaN      NaN      NaN      NaN      NaN      NaN      NaN
+
+NOTE: Results are valid only for the manually annotated frames.

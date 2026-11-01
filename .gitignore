@@ -1,0 +1,15 @@
+# Large video files
+*.mp4
+*.mov
+*.avi
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# macOS files
+.DS_Store
